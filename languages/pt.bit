@@ -1,0 +1,43 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Português - Português',
+	'english'=>'Portuguese',
+	'last_update'=>'02/02/2014',
+	'author'=>'Paulo Nunes',
+	'email'=>'syndicatefx@gmail.com',
+	'url'=>'http://syndicatefx.com'
+);
+
+$_LANG['USERNAME'] = 'Utilizador';
+$_LANG['PASSWORD'] = 'Senha';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Escolha o seu idioma';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'CMS Blog fácil, rápido e livre';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog é um potente motor para criação de blogs, tudo o que necessita é de PHP para funcionar. Muito fácil de instalar e configurar (somente 1 passo).';
+$_LANG['DOWNLOAD'] = 'Download';
+$_LANG['HELP_AND_SUPPORT'] = 'Ajuda e Suporte';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Se necessita de ajuda com a instalação, configuração ou deseja comunicar um BUG diriga-se ao forum de suporte';
+$_LANG['DEMO'] = 'Demo';
+$_LANG['CONTENT_DEMO'] = 'Sinta o poder de Nibbleblog antes de instalar';
+$_LANG['DONATE'] = 'Doar';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog é totalmente livre sob a licença GPL-3. Contamos tambem com o Paypal para quem desejar contribuir com doações para despesas de alojamento e outras relacionadas. Muito obrigado.';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Área de administração';
+$_LANG['BLOGS_POSTS'] = 'Posts do blog';
+$_LANG['FORUM'] = 'Forum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog no Github';
+$_LANG['CHANGELOG'] = 'Actualizações';
+$_LANG['DOCUMENTATION'] = 'Documentação';
+$_LANG['HOME'] = 'Início';
+$_LANG['HOW_TO_TUTORIALS'] = 'How-to, tutoriais, documentação para utilizadores e developers';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Baixe a mais recente e estável versão do Nibbleblog.';
+$_LANG['PARTNERS'] = 'Parceiros';
+$_LANG['LATEST_STABLE_VERSION'] = 'Mais recente e estável versão';
+$_LANG['OLD_VERSIONS'] = 'Versões anteriores';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Hosting e instalação fácil através da A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'Mais informação';
+$_LANG['META_KEYWORDS'] = 'blog, motor, flat, ficheiros, xml, nibbleblog, gpl, livre, sem anúncios, sem base de dados, sem db, html, css, javascript, sistema de gestão de conteúdos, cms';
+$_LANG['CONTENT_DOCUMENTATION'] = 'Toda a documentação encontra-se neste blog';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Outras opçoes para download';
+
+?>

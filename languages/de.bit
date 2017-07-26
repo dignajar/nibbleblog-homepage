@@ -1,0 +1,42 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Deutsch - Deutsch',
+	'english'=>'German',
+	'last_update'=>'02/02/2014',
+	'author'=>'Daniel Randazzo',
+	'email'=>'kontakt@pc-repariert.de',
+	'url'=>'http://pc-repariert.de'
+);
+
+$_LANG['USERNAME'] = 'Benutzername';
+$_LANG['PASSWORD'] = 'Passwort';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Sprache auswählen';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Einfaches, schnelles und kostenloses CMS/Blog';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog ist eine mächtige Software zum Erstellen eines Blogs. Als Voraussetzung benötigt es nur PHP und ist sehr einfach zu installieren und einzurichten.';
+$_LANG['DOWNLOAD'] = 'Herunterladen';
+$_LANG['HELP_AND_SUPPORT'] = 'Hilfe & Unterstützung';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Wenn du Hilfe bei der Installation oder Einrichtung brauchst, oder einen BUG melden möchtest, dann besuche das Forum';
+$_LANG['DEMO'] = 'Demo';
+$_LANG['CONTENT_DEMO'] = 'Erlebe die Power von Nibbleblog bevor du es selbst installierst';
+$_LANG['DONATE'] = 'Spenden';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog ist frei im Sinne der GPL-3-Lizenz. Du kannst uns aber gerne mit einer Paypal-Spende bei der Finanzierung des Webauftritts unterstützen';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Admin Bereich';
+$_LANG['BLOGS_POSTS'] = 'Blog Posts';
+$_LANG['FORUM'] = 'Forum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog bei Github';
+$_LANG['CHANGELOG'] = 'Changelog';
+$_LANG['DOCUMENTATION'] = 'Dokumentation';
+$_LANG['HOME'] = 'Startseite';
+$_LANG['HOW_TO_TUTORIALS'] = 'HowTos, Tutorials, Dokumentation für Benutzer und Entwickler';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Lade die neueste stabile Nibbleblog-Version herunter';
+$_LANG['PARTNERS'] = 'Partner';
+$_LANG['LATEST_STABLE_VERSION'] = 'Neueste stabile Version';
+$_LANG['OLD_VERSIONS'] = 'Alte Versionen';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Einfach - Nibbleblog-Setup von A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'Mehr Informationen';
+$_LANG['META_KEYWORDS'] = 'blog, software, flat, dateien, xml, nibbleblog, gpl, kostenlos, keine werbung, keine datenbank, no db, html, css, javascript, content management system, cms';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Andere Optionen für den Download';
+
+?>

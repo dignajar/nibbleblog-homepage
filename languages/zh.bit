@@ -1,0 +1,42 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'繁體中文',
+	'english'=>'Chinese Traditional',
+	'last_update'=>'02/02/2014',
+	'author'=>'Ethan',
+	'email'=>'ethan42411@gmail.com',
+	'url'=>'http://ethan42411.twbbs.org/'
+);
+
+$_LANG['USERNAME'] = '使用者名稱';
+$_LANG['PASSWORD'] = '密碼';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = '選擇您的語言';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = '簡單、快速、自由的部落格系統';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog 是一個強而有力的部落格系統，只需要PHP就可以運作，非常簡單的安裝與設定(只需要一個步驟)';
+$_LANG['DOWNLOAD'] = '下載';
+$_LANG['HELP_AND_SUPPORT'] = '協助與支援';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = '如果您需要任何安裝、設定上的協助或是有任何意見想要提出，您可以至支援論壇';
+$_LANG['DEMO'] = '展示';
+$_LANG['CONTENT_DEMO'] = '在安裝之前先來體驗一下Nibbleblog的好';
+$_LANG['DONATE'] = '贊助';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog在GPL3的憑證下是完全免費的。我們也接受喜歡這個部落格系統的人透過Paypal贊助網站託管費或是其他相關費用。非常的謝謝您。';
+$_LANG['BLOG'] = '部落格';
+$_LANG['ADMIN_AREA'] = '管理介面';
+$_LANG['BLOGS_POSTS'] = '部落格的文章';
+$_LANG['FORUM'] = '論壇';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog on Github';
+$_LANG['CHANGELOG'] = '更新紀錄';
+$_LANG['DOCUMENTATION'] = '文件';
+$_LANG['HOME'] = '首頁';
+$_LANG['HOW_TO_TUTORIALS'] = '為使用者與開發者準備的操作指南與文件';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = '下載最新穩定的Nibbleblog版本';
+$_LANG['PARTNERS'] = '夥伴';
+$_LANG['LATEST_STABLE_VERSION'] = '最新發行版本';
+$_LANG['OLD_VERSIONS'] = '舊版本';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = '簡單, 在A2 Hosting上安裝Nibbleblog';
+$_LANG['MORE_INFORMATION'] = '更多訊息';
+$_LANG['META_KEYWORDS'] = '部落格, 引擎, 檔案, 管理, 免費, 無廣告, 免資料庫, 不用資料庫, 內容, 系統, blog, engine, flat, files, xml, nibbleblog, gpl, free, no ads, no database, no db, html, css, javascript, content management system, cms';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = '其他下載選項';
+
+?>

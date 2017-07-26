@@ -1,0 +1,314 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic&subset=latin,cyrillic);
+
+body {
+	font-family: 'Open Sans',arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	color: #555;
+}
+
+#wrap {
+
+}
+
+a {
+	color: #327CCB;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0E4EAD;
+}
+
+a.lang {
+    background: url("img/earth.png") no-repeat scroll 0 0 transparent;
+    color: #555555;
+    display: inline-block;
+    margin: 2px 8px;
+    opacity: 0.7;
+    padding-left: 20px;
+    line-height: 14px;
+}
+
+a.lang:hover {
+	opacity: 1;
+}
+
+/* HEAD */
+#head {
+	padding-left: 20px;
+	padding-right: 20px;
+	min-width: 660px;
+	margin: 0 auto;
+}
+
+/* LOGO */
+#title {
+    font-size: 1.4em;
+    overflow: auto;
+}
+
+#title	div.logo {
+	display: inline-block;
+}
+
+#title	div.links {
+	float:right;
+}
+
+#title	div.links span {
+	line-height: 80px;
+	margin: 0 10px;
+}
+
+#title	h1 {
+	padding: 0;
+	margin: 0;
+	line-height: 80px;
+	font-weight: lighter;
+    background: url("img/mrnibbler.png") no-repeat 0 10px;
+    padding-left: 55px;
+}
+
+/* ABOUT */
+#main {
+    font-size: 1.3em;
+	background: url(img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#main	div.float_wrap {
+    margin: 0 auto;
+    max-width: 600px;
+    overflow: auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#main	h2 {
+	font-weight: normal;
+	color: #fff;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+#main	h2.first {
+	font-size: 2.2em;
+}
+
+#main div.about {
+    color: #333333;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#main	a.download_button {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    color: #333333;
+    display: block;
+    font-size: 1.3em;
+    margin: 0 auto;
+    opacity: 0.8;
+    padding: 20px;
+    width: 60%;
+}
+
+#main	a.download_button:hover {
+    opacity: 1;
+	cursor: pointer;
+}
+
+#main	a.download_others {
+	color: #fff;
+	text-shadow: 1px 1px 2px #000000;
+	margin-top: 15px;
+    display: block;
+}
+
+/* MAIN */
+#main_sub {
+	margin: 0 auto;
+	font-size: 1.4em;
+}
+
+#foot {
+    background-color: #F1F1F1;
+    margin-top: 50px;
+    overflow: auto;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#main_sub div.about {
+	font-size: 22px;
+	margin: 50px 0;
+	padding-left: 131px;
+	min-height: 100px;
+}
+
+@media all and (max-width: 980px) {
+	#main_sub div.three_heads div.monkey {
+		display: block !important;
+		float: none !important;
+		margin: 30px auto !important;
+		width: 50% !important;
+	}
+}
+
+#main_sub div.three_heads {
+	overflow: auto;
+	margin: 60px auto;
+}
+
+#main_sub div.three_heads div.monkey {
+	float: left;
+	margin: 0 15px;
+	width: 30%;
+	text-align: center;
+}
+
+div.bg_demo {
+	background: url("img/demo.png") no-repeat scroll center center transparent;
+	height: 50px;
+}
+
+div.bg_help {
+	background: url("img/help.png") no-repeat scroll center center transparent;
+	height: 50px;
+}
+
+div.bg_donate {
+	background: url("img/donate.png") no-repeat scroll center center transparent;
+	height: 50px;
+}
+
+h2.title {
+	font-weight: normal;
+	color: #333;
+}
+
+div.separator {
+	border-bottom: 1px solid #ccc;
+	margin: 25px 0;
+}
+
+span.credential {
+	color: #E53472;
+	font-weight: bold;
+}
+
+div.social {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding: 30px 0;
+	text-align: center;
+	background: #f1f1f1;
+	margin-bottom: 60px;
+}
+
+div.social	a {
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	margin: 0 20px;
+	opacity: 0.8;
+}
+
+div.social	a:hover {
+	opacity: 1;
+}
+
+div.social	a.social_facebook {
+	background: url('img/facebook.png') no-repeat center;
+}
+
+div.social	a.social_twitter {
+	background: url('img/twitter.png') no-repeat center;
+}
+
+div.social	a.social_googleplus {
+	background: url('img/googleplus.png') no-repeat center;
+}
+
+div.social	a.social_youtube {
+	background: url('img/youtube.png') no-repeat center;
+}
+
+div.social	a.social_github {
+	background: url('img/github.png') no-repeat center;
+}
+
+
+div.blog {
+	text-align: center;
+}
+
+div.blog	h2 {
+	font-weight: normal;
+}
+
+div.sponsor {
+	text-align: center;
+	margin-top: 60px;
+}
+
+div.sponsor a {
+	opacity: 0.5;
+}
+
+div.sponsor a:hover {
+	opacity: 1;
+}
+
+
+#languages {
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#languages	span {
+	margin: 0 10px;
+}
+
+/* INCLUDES */
+section.inc {
+	font-size: 1.4em;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-width: 660px;
+	margin: 0 auto;
+}
+
+section.inc	h1.title {
+    background: none repeat scroll 0 0 #F1F1F1;
+    font-weight: lighter;
+    padding: 12px;
+    text-align: center;
+}
+
+section.inc	h2 {
+    background: none repeat scroll 0 0 #F1F1F1;
+    font-weight: lighter;
+    padding: 12px;
+    text-align: left;
+}
+
+section.inc	div.download {
+	margin-bottom: 20px;
+}
+
+section.inc	div.download	span {
+	margin-right: 10px;
+	font-size: 0.9em;
+}
+

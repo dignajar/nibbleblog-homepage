@@ -1,0 +1,34 @@
+<?php
+
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Easy, fast and free Blog system';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog is a powerful engine for creating blogs, all you need is PHP to work. Very simple to install and configure (only 1 step).';
+$_LANG['DOWNLOAD'] = 'Download';
+$_LANG['USERNAME'] = 'username';
+$_LANG['PASSWORD'] = 'password';
+$_LANG['HELP_AND_SUPPORT'] = 'Help &amp; Support';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'If you need help with installation, configuration or wish to report a BUG you can enter the support forum.';
+$_LANG['DEMO'] = 'Demo';
+$_LANG['CONTENT_DEMO'] = 'Feel the power of Nibbleblog before installing.';
+$_LANG['DONATE'] = 'Donate';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog is totally free under GPL-3 license. We also count with Paypal for whoever likes to contribute with a donation for hosting fees or other related expenses. Thank you very much.';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Admin area';
+$_LANG['BLOGS_POSTS'] = 'Blog\'s posts';
+$_LANG['FORUM'] = 'Forum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog on Github';
+$_LANG['CHANGELOG'] = 'Changelog';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Choose your language';
+$_LANG['DOCUMENTATION'] = 'Documentation';
+$_LANG['CONTENT_DOCUMENTATION'] = 'All documentation can be found on this blog.';
+$_LANG['HOME'] = 'Home';
+$_LANG['HOW_TO_TUTORIALS'] = 'How to, tutorials, documentantions for users and developers.';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Download the latest stable version of Nibbleblog.';
+$_LANG['PARTNERS'] = 'Partners';
+$_LANG['LATEST_STABLE_VERSION'] = 'Latest stable version';
+$_LANG['OLD_VERSIONS'] = 'Old versions';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Easy, Nibbleblog Setup From A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'More information';
+$_LANG['META_KEYWORDS'] = 'blog, engine, flat, files, xml, nibbleblog, gpl, free, no ads, no database, no db, html, css, javascript, content management system, cms';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Other download options';
+
+?>

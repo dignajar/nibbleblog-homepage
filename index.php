@@ -1,0 +1,172 @@
+<?php
+
+$url = array(
+	'page'=>null,
+	'languages'=>'en'
+);
+
+if( isset($_GET['page']) ){ $url['page'] = $_GET['page']; }
+
+if( isset($_GET['languages']) ) { $url['languages'] = $_GET['languages']; }
+
+$html_path = '/';
+
+// LANGUAGES
+require( 'languages/en.bit' );
+@include( 'languages/'. $url['languages'] . '.bit' );
+
+$links['home'] = isset($url['languages'])? $html_path.$url['languages'].'/' : $html_path;
+$links['download'] = isset($url['languages'])? $html_path.'download/'.$url['languages'].'/' : $html_path.'download/';
+$links['documentation'] = isset($url['languages'])? $html_path.'documentation/'.$url['languages'].'/' : $html_path.'documentation/';
+$links['demo'] = isset($url['languages'])? $html_path.'demo/'.$url['languages'].'/' : $html_path.'demo/';
+$links['support'] = isset($url['languages'])? $html_path.'support/'.$url['languages'].'/' : $html_path.'support/';
+
+$langs = array(
+	'Català'=>'ca',
+	'Čeština'=>'cs',
+	'Deutsch'=>'de',
+	'English'=>'en',
+	'Español'=>'es',
+	'Français'=>'fr',
+	'Magyar'=>'hu',
+	'Italiano'=>'it',
+	'Polski'=>'pl',
+	'Português'=>'pt',
+	'Pyccĸий'=>'ru',
+	'Tϋrkçe'=>'tr',
+	'Tiếng Việt'=>'vi',
+	'繁體中文'=>'zh'
+);
+
+$layout = array(
+	'title'=>'Nibbleblog - '.$_LANG['NIBBLEBLOG_DESCRIPTION_1'],
+	'description'=>$_LANG['NIBBLEBLOG_DESCRIPTION_2'],
+	'keywords'=>$_LANG['META_KEYWORDS']
+);
+
+if($url['page']=='download')
+{
+	$layout['title'] .= ' | '.$_LANG['DOWNLOAD'];
+	$layout['description'] = $_LANG['DOWNLOAD_NIBBLEBLOG_THE'];
+}
+elseif($url['page']=='documentation')
+{
+	$layout['title'] .= ' | '.$_LANG['DOCUMENTATION'];
+	$layout['description'] = $_LANG['HOW_TO_TUTORIALS'];
+}
+elseif($url['page']=='demo')
+{
+	$layout['title'] .= ' | '.$_LANG['DEMO'];
+	$layout['description'] = $_LANG['CONTENT_DEMO'];
+}
+elseif($url['page']=='support')
+{
+	$layout['title'] .= ' | '.$_LANG['HELP_AND_SUPPORT'];
+	$layout['description'] = $_LANG['CONTENT_HELP_AND_SUPPORT'];
+}
+
+?>
+<!DOCTYPE HTML>
+<html>
+<head lang="<?php echo $url['languages'] ?>">
+	<meta charset="utf-8">
+
+	<title><?php echo $layout['title'] ?></title>
+	<meta name="description" content="<?php echo $layout['description'] ?>" >
+	<meta name="keywords" content="<?php echo $layout['keywords'] ?>" >
+	<meta name="robots" content="index, follow" >
+
+	<meta name="google-site-verification" content="i8tUMYyMEao3Tpi5kBT6MOSeBBWeV-29Mp0hXr-Ef20" >
+
+	<link rel="stylesheet" type="text/css" href="<?php echo $html_path.'css/normalize.css'; ?>" >
+	<link rel="stylesheet" type="text/css" href="<?php echo $html_path.'css/style.css'; ?>" >
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
+
+	<!-- Open Graph -->
+	<meta property="og:locale" content="<?php echo $url['languages'] ?>">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="<?php echo $layout['title'] ?>">
+	<meta property="og:description" content="<?php echo $layout['description'] ?>">
+	<meta property="og:image" content="http://www.nibbleblog.com/css/img/mrnibbler128.png">
+	<meta property="og:url" content="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>">
+	<meta property="og:site_name" content="Nibbleblog">
+
+	<?php
+		$tags = explode(',', $_LANG['META_KEYWORDS']);
+		foreach($tags as $tag)
+			echo '<meta property="article:tag" content="'.trim($tag).'">'.PHP_EOL;
+	?>
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="<?php echo $layout['title'] ?>">
+	<meta name="twitter:url" content="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>">
+	<meta name="twitter:image" content="http://www.nibbleblog.com/css/img/mrnibbler128.png">
+	<meta name="twitter:description" content="<?php echo $layout['description'] ?>">
+	<meta name="twitter:site" content="@nibbleblog">
+	<meta name="twitter:creator" content="@dignajar">
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-33770801-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+</head>
+<body>
+
+	<div id="wrap">
+
+		<header id="head">
+			<div id="title">
+				<div class="logo">
+					<h1>nibbleblog</h1>
+				</div>
+				<div class="links">
+					<span><a href="<?php echo $links['home'] ?>"><?php echo $_LANG['HOME'] ?></a></span>
+					<span><a href="<?php echo $links['download'] ?>"><?php echo $_LANG['DOWNLOAD'] ?></a></span>
+					<span><a href="<?php echo $links['documentation'] ?>"><?php echo $_LANG['DOCUMENTATION'] ?></a></span>
+					<span><a href="<?php echo $links['demo'] ?>"><?php echo $_LANG['DEMO'] ?></a></span>
+					<span><a href="<?php echo $links['support'] ?>"><?php echo $_LANG['HELP_AND_SUPPORT'] ?></a></span>
+				</div>
+			</div>
+		</header>
+
+		<?php
+			if(file_exists('includes/'.$url['page'].'.php'))
+			{
+				include('includes/'.$url['page'].'.php');
+			}
+			else
+			{
+				include('includes/index.php');
+			}
+		?>
+
+		<footer id="foot">
+			<p>
+				<?php
+					foreach($langs as $key=>$value)
+					{
+						echo '<a class="lang" href="'.$html_path.$value.'/">'.$key.'</a>';
+					}
+				?>
+			</p>
+
+			<p><a href="http://demo.nibbleblog.com"><?php echo $_LANG['DEMO'] ?></a> | <a href="http://github.com/dignajar/nibbleblog">Github</a> | <a href="http://www.facebook.com/nibbleblog">Facebook</a> | <a href="http://sourceforge.net/projects/nibbleblog/">Sourceforge</a> | <a href="http://google.com/+Nibbleblog">Google+</a> | <a href="<?php echo $html_path ?>pad_file.xml">Pad File</a></p>
+
+			<p>Nibbleblog ©2009 - <?php echo date('Y') ?> | Diego Najar ( <a target="_blank" href="http://www.linkedin.com/in/dignajar">Linkedin</a> )</p>
+		</footer>
+
+	</div>
+
+</body>
+</html>

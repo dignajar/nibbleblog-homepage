@@ -1,0 +1,43 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Tiếng Việt - Tiếng Việt',
+	'english'=>'Vietnamese',
+	'last_update'=>'02/02/2014',
+	'author'=>'babycntt',
+	'email'=>'quan0909@gmail.com',
+	'url'=>''
+);
+
+$_LANG['USERNAME'] = 'Tên Đăng nhập';
+$_LANG['PASSWORD'] = 'Mật mã';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Chọn ngôn ngữ của bạn';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Hệ quản trị nội dung đơn giản, nhanh và miễn phí';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog là một nền tảng để tạo blog cá nhân, bạn cần PHP để chạy. Quá trình cài đặt, cấu hình rất đơn giản (chỉ 1 bước)';
+$_LANG['DOWNLOAD'] = 'Tải về';
+$_LANG['HELP_AND_SUPPORT'] = 'Trợ giúp & Hỗ trợ';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Nếu bạn cần giúp đỡ khi cài đặt, cấu hình hoặc muốn báo lỗi, bạn có thể vào diễn đàn hỗ trợ';
+$_LANG['DEMO'] = 'Dùng thử';
+$_LANG['CONTENT_DEMO'] = 'Cảm nhận sức mạnh của Nibbleblog trước khi cài đặt';
+$_LANG['DONATE'] = 'Đóng góp';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog hoàn toàn miễn phí với giấy phép GPL-3. Chúng tôi cũng nhận các nguồn đóng góp bằng Paypal nhằm trang trải chi phí hosting và các khoản phát sinh. Cám ơn các bạn.';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Khu vực quản lý';
+$_LANG['BLOGS_POSTS'] = 'Bài đăng trên blog';
+$_LANG['FORUM'] = 'Diễn đàn';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog trên Github';
+$_LANG['CHANGELOG'] = 'Những thay đổi';
+$_LANG['DOCUMENTATION'] = 'Tài liệu';
+$_LANG['HOME'] = 'Trang chủ';
+$_LANG['HOW_TO_TUTORIALS'] = 'Làm thế nào, thủ thuật, tài liệu cho người dùng và nhà phát triển.';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Tải phiên bản mới nhất của Nibbleblog.';
+$_LANG['PARTNERS'] = 'Đối tác';
+$_LANG['LATEST_STABLE_VERSION'] = 'Phiên bản chính thức mới nhất';
+$_LANG['OLD_VERSIONS'] = 'Phiên bản cũ hơn';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Nibbleblog có thể được cài đặt một cách đơn giản trên A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'Chi tiết';
+$_LANG['META_KEYWORDS'] = 'blog, engine, flat, files, xml, nibbleblog, gpl, free, no ads, no database, no db, html, css, javascript, content management system, cms';
+$_LANG['CONTENT_DOCUMENTATION'] = 'Mọi tài liệu đều có thể xem trên blog này.';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Tùy chọn tải về';
+
+?>

@@ -1,0 +1,43 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Polski - Polski',
+	'english'=>'Polish',
+	'last_update'=>'02/02/2014',
+	'author'=>'kaaleth',
+	'email'=>'dawid.stawicki@windowslive.com',
+	'url'=>''
+);
+
+$_LANG['USERNAME'] = 'Użytkownik';
+$_LANG['PASSWORD'] = 'Hasło';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Wybierz swój język';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Prosty, szybki i darmowy CMS';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog to platforma do tworzenia blogów. Wszystko czego potrzebujesz do pracy to obecność PHP. Prosty w instalacji i konfiguracji (tylko 1 krok).';
+$_LANG['DOWNLOAD'] = 'Pobierz';
+$_LANG['HELP_AND_SUPPORT'] = 'Pomoc i wsparcie';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Jeśli potrzebujesz pomocy z instalacją, konfiguracją lub po prostu chcesz zgłosić błąd, zajrzyj na nasze forum wsparcia';
+$_LANG['DEMO'] = 'Demo';
+$_LANG['CONTENT_DEMO'] = 'Poczuj moc Nibbleblog przed jego instalacją';
+$_LANG['DONATE'] = 'Darowizna';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog jest zupełnie darmowy i opera się o licencję GPL-3. Liczymy również na darowizny Paypal, które przeznaczamy na utrzymanie kosztów serwera i innych rzeczy. Wielkie dzięki!';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Panel administratora';
+$_LANG['BLOGS_POSTS'] = 'Wpisy na blogu';
+$_LANG['FORUM'] = 'Forum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog na Githubie';
+$_LANG['CHANGELOG'] = 'Dziennik zmian';
+$_LANG['DOCUMENTATION'] = 'Dokumentacja';
+$_LANG['HOME'] = 'Strona główna';
+$_LANG['HOW_TO_TUTORIALS'] = 'Artykuły, poradniki, dokumentacja dla użytkowników i deweloperów.';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Pobierz najnowszą, stabilną wersję Nibbleblog.';
+$_LANG['PARTNERS'] = 'Partnerzy';
+$_LANG['LATEST_STABLE_VERSION'] = 'Ostatnia, stabilna wersja';
+$_LANG['OLD_VERSIONS'] = 'Starsze wersje';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Prosty instalator z A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'Więcej informacji';
+$_LANG['META_KEYWORDS'] = 'blog, silnik, lekki, pliki, xml, nibbleblog, gpl, darmowy, brak reklam, bez bazy danych, bez bd, html, css, javascript, system zarządzania treścią, cms';
+$_LANG['CONTENT_DOCUMENTATION'] = 'Dokumentacja dostępna jest na następującym blogu.';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Pozostałe warianty pobierania';
+
+?>

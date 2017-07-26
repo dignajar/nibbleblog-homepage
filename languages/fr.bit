@@ -1,0 +1,22 @@
+<?php
+
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'CMS pour Blogs, simple, rapide et gratuit';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog est un puissant moteur de création de blogs, tout ce dont vous avez besoin est PHP pour qu\'il fonctionne. Vraiment très simple à installer et à configurer (une seule étape).';
+$_LANG['DOWNLOAD'] = 'Téléchargement';
+$_LANG['USERNAME'] = 'identifiant';
+$_LANG['PASSWORD'] = 'mot de passe';
+$_LANG['HELP_AND_SUPPORT'] = 'Aide et Support';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Si vous avez besoin d\'aide pour l\'installation, la configuration ou si vous souhaitez rapporter une erreur, vous pouvez vous inscrire au forum d\'assistance.';
+$_LANG['DEMO'] = 'Démo';
+$_LANG['CONTENT_DEMO'] = 'Testez la puissance de Nibbleblog avant de l\'installer.';
+$_LANG['DONATE'] = 'Faire un Don';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog est un projet open-source, entièrement gratuit. Nous disposons d\'un compte Paypal pour tous ceux qui souhaitent faire un don. Merci à tous de votre soutient.';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Espace d\'administration'; // O simplemente 'Administration'
+$_LANG['BLOGS_POSTS'] = 'Billets du blog';
+$_LANG['FORUM'] = 'Forum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog sur Github';
+$_LANG['CHANGELOG'] = 'Historique'; // O simplement 'Historique'
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Choisissez votre langue';
+
+?>

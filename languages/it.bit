@@ -1,0 +1,42 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Italiano - Italiano',
+	'english'=>'Italian',
+	'last_update'=>'02/02/2014',
+	'author'=>'Giacomo Margarito',
+	'email'=>'giacomomargarito@gmail.com',
+	'url'=>'http://www.freewaresnews.it'
+);
+
+$_LANG['USERNAME'] = 'Nome utente';
+$_LANG['PASSWORD'] = 'Password';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Seleziona la lingua';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'CMS per blog facile, veloce e gratuito';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog è un potente motore per creare blog. Tutto quello che ti serve è solo il PHP. Molto semplice da installare e configurare (solo un\'azione).';
+$_LANG['DOWNLOAD'] = 'Scarica';
+$_LANG['HELP_AND_SUPPORT'] = 'Aiuto e &amp; supporto ';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Se hai bisogno di aiuto con l\'installazione, la configurazione o desideri segnalare un bug puoi entrare nel forum di supporto';
+$_LANG['DEMO'] = 'Dimostrazione';
+$_LANG['CONTENT_DEMO'] = 'Prova la potenza di Nibbleblog prima di installarlo.';
+$_LANG['DONATE'] = 'Donazione';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog è completamente gratuito sotto licenza GPL-3. Abbiamo anche un conto su Paypal per chiunque voglia contribuire con una donazione per le spese di hosting o altre spese collegate. Grazie mille. ';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Area amministarzione';
+$_LANG['BLOGS_POSTS'] = 'Articoli del blog';
+$_LANG['FORUM'] = 'Forum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog su Github';
+$_LANG['CHANGELOG'] = 'Modifiche della versione';
+$_LANG['DOCUMENTATION'] = 'Documentazione';
+$_LANG['HOME'] = 'Home';
+$_LANG['HOW_TO_TUTORIALS'] = 'Procedure, lezioni guidate, documentazione per utenti e sviluppatori.';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Scarica l\'ultima versione stabile di Nibbleblog.';
+$_LANG['PARTNERS'] = 'Partners';
+$_LANG['LATEST_STABLE_VERSION'] = 'Ultima versione stabile';
+$_LANG['OLD_VERSIONS'] = 'vecchie versioni';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Setup facile di Nibble blog da A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'Maggiori informazioni';
+$_LANG['META_KEYWORDS'] = ' blog, motore, flat, files, xml, nibbleblog, gpl, gratis, nessuna pubblicità, nessun database, nessun db, html, css, javascript, sistema di gestione dei contenuti, cms ';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Altre opzioni di download.';
+
+?>

@@ -1,0 +1,34 @@
+# Begin cache control #
+ExpiresActive on
+<FilesMatch "\.(bmp|png|ico|jpg|jpeg|gff|gif|gcf)$">
+FileETag MTime Size
+ExpiresDefault "now plus 24 minutes"
+</FilesMatch>
+
+
+# End cache control #
+# Begin IP blocking #
+Order Allow,Deny
+Deny from 188.162.65.73
+Allow from all
+# End IP blocking #
+
+
+
+
+# For security reasons, Option followsymlinks cannot be overridden.
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} ^nibbleblog.com$ [NC]
+	RewriteRule (.*) http://www.nibbleblog.com/$1 [L,R=301]
+	RewriteRule ^download/$ index.php?page=download [L]
+	RewriteRule ^demo/$ index.php?page=demo [L]
+	RewriteRule ^support/$ index.php?page=support [L]
+	RewriteRule ^documentation/$ index.php?page=documentation [L]
+	RewriteRule ^download/([^/]+)/$ index.php?page=download&languages=$1 [L]
+	RewriteRule ^demo/([^/]+)/$ index.php?page=demo&languages=$1 [L]
+	RewriteRule ^support/([^/]+)/$ index.php?page=support&languages=$1 [L]
+	RewriteRule ^documentation/([^/]+)/$ index.php?page=documentation&languages=$1 [L]
+	RewriteRule ^([^/]+)/$ index.php?languages=$1 [L]
+</IfModule>

@@ -1,0 +1,31 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'čeština - čeština',
+	'english'=>'czech',
+	'last_update'=>'05/03/2013',
+	'author'=>'JarynekZ',
+	'email'=>'j.zaoral@gmail.com',
+	'url'=>'http://www.lamilide.cz'
+);
+
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Jednoduchý a rychlý CMS Blog zdarma';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog je výkonný nástroj pro vytváření blogů. Vše co potřebujete je fungující PHP. Velmi jednoduché na instalaci a nastavení (jeden jedinný krok).';
+$_LANG['DOWNLOAD'] = 'Stáhnout';
+$_LANG['USERNAME'] = 'Uživatelské jméno';
+$_LANG['PASSWORD'] = 'Heslo';
+$_LANG['HELP_AND_SUPPORT'] = 'Nápověda a podpora';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Potřebujete-li pomoci si instalací, nastavením nebo chcete nahlásit chybu, můžete vstoupit na fórum podpory.';
+$_LANG['DEMO'] = 'Ukázka';
+$_LANG['CONTENT_DEMO'] = 'Pociťte sílu Nibbleblogu ještě než si jej nainstalujete';
+$_LANG['DONATE'] = 'Přispět';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog je naprosto zdarma pod licencí GPL-3. Počítáme s Paypalem pro kohokoliv, kdo by chtěl přispět na hosting a další spojené poplatky. Mnohokrát děkujeme.';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Prostředí správce';
+$_LANG['BLOGS_POSTS'] = 'Příspěvky na blogu';
+$_LANG['FORUM'] = 'Fórum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog na Githubu';
+$_LANG['CHANGELOG'] = 'Seznam změn';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Zvolte jazyk';
+
+?>

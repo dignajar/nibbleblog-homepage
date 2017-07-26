@@ -1,0 +1,31 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Magyar - Magyar',
+	'english'=>'Hungarian',
+	'last_update'=>'29/10/2013',
+	'author'=>'aCidicE',
+	'email'=>'acidice@vipmail.hu',
+	'url'=>''
+);
+
+$_LANG['USERNAME'] = 'Felhasználónév';
+$_LANG['PASSWORD'] = 'Jelszó';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Válassz nyelvet';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Könnyű, gyors, és ingyenes blog';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'A Nibbleblog egy erős rendszer blogok készítéséhez, csak PHP kell a működéshez. Nagyon egyszerű telepíteni, és beállítani (csak 1 lépés).';
+$_LANG['DOWNLOAD'] = 'Letöltés';
+$_LANG['HELP_AND_SUPPORT'] = 'Segítség &amp; Támogatás';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Ha szükséged van segítségre a telepítésben, beállításban, vagy egy hibát jeleznél, lépj be a fórumba.';
+$_LANG['DEMO'] = 'Demó';
+$_LANG['CONTENT_DEMO'] = 'Érezd a Nibbleblog erejét, mielőtt telepítenéd';
+$_LANG['DONATE'] = 'Támogatás';
+$_LANG['CONTENT_DONATE'] = 'A Nibbleblog teljesen ingyenes a GPL-3 licensz alapján. Támogatásokat viszont Paypal rendszeren keresztül fogadunk a fejlesztéssel kapcsolatos költségek miatt. Köszönjük szépen.';
+$_LANG['BLOG'] = 'Blod';
+$_LANG['ADMIN_AREA'] = 'Admin terület';
+$_LANG['BLOGS_POSTS'] = 'Blogok bejegyzései';
+$_LANG['FORUM'] = 'Fórum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog a Github-on';
+$_LANG['CHANGELOG'] = 'Változások';
+
+?>

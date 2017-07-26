@@ -1,0 +1,43 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Català',
+	'english'=>'Catalan',
+	'last_update'=>'21/05/2014',
+	'author'=>'Sergi Duran',
+	'email'=>'sergidurannyssen@gmail.com',
+	'url'=>'http://sokvist.com/'
+);
+
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Bloc CMS fàcil, ràpid i gratuït';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog és un poderós motor per a la creació de blocs, tot el que necessita és PHP perquè funcioni. Molt fàcil d\'instal·lar i configurar (només 1 pas).';
+$_LANG['DOWNLOAD'] = 'Baixada';
+$_LANG['USERNAME'] = 'Usuari';
+$_LANG['PASSWORD'] = 'Contrasenya';
+$_LANG['HELP_AND_SUPPORT'] = 'Ajuda i suport';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Si necessites ajuda amb la instal·lació, la configuració o desitges informar d\'un error, pots entrar al fòrum de suport.';
+$_LANG['DEMO'] = 'Demo';
+$_LANG['CONTENT_DEMO'] = 'Sent el poder de Nibbleblog abans d\'instal·lar-lo.';
+$_LANG['DONATE'] = 'Donar';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog és totalment gratuït sota llicència GPL-3. També comptem amb Paypal per a qui vulgui contribuir amb una donació per a despeses d\'allotjament i altres despeses relacionades. Moltes gràcies.';
+$_LANG['BLOG'] = 'Bloc';
+$_LANG['ADMIN_AREA'] = 'Àrea d\'administració';
+$_LANG['BLOGS_POSTS'] = 'Articles del bloc';
+$_LANG['FORUM'] = 'Fòrum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog a Github';
+$_LANG['CHANGELOG'] = 'Registre de canvis';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Tria el teu idioma';
+$_LANG['DOCUMENTATION'] = 'Documentació';
+$_LANG['CONTENT_DOCUMENTATION'] = 'Tota la documentació es pot trobar en aquest bloc.';
+$_LANG['HOME'] = 'Inici';
+$_LANG['HOW_TO_TUTORIALS'] = 'How-to, tutorials, documentació per a usuaris i desenvolupadors.';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Descarrega\'t la última versió de Nibbleblog.';
+$_LANG['PARTNERS'] = 'Partners';
+$_LANG['LATEST_STABLE_VERSION'] = 'Última versió estable';
+$_LANG['OLD_VERSIONS'] = 'Versions antigues';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Fàcil configuració de Nibbleblog des de A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'Més informació';
+$_LANG['META_KEYWORDS'] = 'bloc, motor, plana, arxius, xml, Nibbleblog, glp, gratis, sense publicitat, sense base de dades, no db, html, css, javascript, sistema de gestió de continguts, CMS';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Altres opcions de descàrrega';
+
+?>

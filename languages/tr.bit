@@ -1,0 +1,31 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Tϋrkçe',
+	'english'=>'Turkish',
+	'last_update'=>'27/11/2012',
+	'author'=>'Adem Yurtsever',
+	'email'=>'botzor@msn.com',
+	'url'=>'http://www.twitter.com/ademyurtsever'
+);
+
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Kolay, Hızlı ve Ücretsiz CMS Blog';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog güçlü bir oluşturma motoruna sahiptir. ihtayıcınız olan sadece PHP çalışma ortamı. Kolay kurulum ve ayarlamalar (sadece 1 adımda)';
+$_LANG['DOWNLOAD'] = 'İndir';
+$_LANG['USERNAME'] = 'Kullanıcı ismi';
+$_LANG['PASSWORD'] = 'Şifre';
+$_LANG['HELP_AND_SUPPORT'] = 'Yardım & Destek';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Eğer kurulum, yapılandırma ile yardıma ihtiyacınız veya bir HATA bildirmek istiyorsanız size destek forumu girebilirsiniz.';
+$_LANG['DEMO'] = 'Demo';
+$_LANG['CONTENT_DEMO'] = 'Yüklemeden önce Nibbleblog gücünü hissedin';
+$_LANG['DONATE'] = 'Bağış';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog GPL-3 lisansı ile tamamen ücretsiz olarak sunulmaktadır. Hosting ücretleri ve diğer ilgili giderler için Nibllebloga bağışta bulunabilirsiniz. Teşekkür ederim.';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Admin alanı';
+$_LANG['BLOGS_POSTS'] = 'Blog konuları';
+$_LANG['FORUM'] = 'Forum';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Github üzerinde Nibbleblog';
+$_LANG['CHANGELOG'] = 'Değişiklikler';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Bir Dil seçiniz';
+
+?>

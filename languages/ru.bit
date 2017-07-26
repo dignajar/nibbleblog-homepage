@@ -1,0 +1,43 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Pyccĸий - Pyccĸий',
+	'english'=>'Russian',
+	'last_update'=>'02/02/2014',
+	'author'=>'Сергей Ворон',
+	'email'=>'sergey@voron.pw',
+	'url'=>'http://voron.pw'
+);
+
+$_LANG['USERNAME'] = 'Логин';
+$_LANG['PASSWORD'] = 'Пароль';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Выберите язык';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'Простая, быстрая и бесплатная CMS для блога';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog это мощная система для создания блогов, все что вам нужно для работы, это PHP . Очень проста в установке и настройке (только 1 шаг).';
+$_LANG['DOWNLOAD'] = 'Скачать';
+$_LANG['HELP_AND_SUPPORT'] = 'Помощь и поддержка';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Если вам нужна помощь с установкой, настройкой или вы хотите сообщить об ошибке, посетите форум поддержки';
+$_LANG['DEMO'] = 'Демо';
+$_LANG['CONTENT_DEMO'] = 'Почувствуйте мощь Nibbleblog перед установкой';
+$_LANG['DONATE'] = 'Поддержите';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog абсолютно бесплатен, распространяется под лицензией GPL-3. Мы также работаем с Paypal для тех, кто хочет внести свой вклад, в пожертвования, для проведения сборов или других сопутствующих расходов. Большое спасибо.';
+$_LANG['BLOG'] = 'Блог';
+$_LANG['ADMIN_AREA'] = 'Панель администратора';
+$_LANG['BLOGS_POSTS'] = 'Записи блога';
+$_LANG['FORUM'] = 'Форум';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog на Github';
+$_LANG['CHANGELOG'] = 'Изменения';
+$_LANG['DOCUMENTATION'] = 'Документация';
+$_LANG['HOME'] = 'Главная';
+$_LANG['HOW_TO_TUTORIALS'] = 'Уроки, учебники, документация для пользователей и разработчиков.';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Загрузите последнюю стабильную версию Nibbleblog.';
+$_LANG['PARTNERS'] = 'Партнеры';
+$_LANG['LATEST_STABLE_VERSION'] = 'Последняя стабильная версия';
+$_LANG['OLD_VERSIONS'] = 'Старые версии';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Легко запустить Nibbleblog с A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'Более подробная информация';
+$_LANG['META_KEYWORDS'] = 'blog, engine, flat, files, xml, nibbleblog, gpl, free, no ads, no database, no db, html, css, javascript, content management system, cms';
+$_LANG['CONTENT_DOCUMENTATION'] = 'Всю документацию можно найти в этом блоге.';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Другие параметры загрузки';
+
+?>

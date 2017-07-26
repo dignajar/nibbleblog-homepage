@@ -1,0 +1,42 @@
+<?php
+
+$_LANG_CONFIG['DATA'] = array(
+	'native'=>'Español - Español',
+	'english'=>'Spanish',
+	'last_update'=>'02/02/2014',
+	'author'=>'Diego Najar',
+	'email'=>'dignajar@gmail.com',
+	'url'=>'http://diego.nibbleblog.com'
+);
+
+$_LANG['USERNAME'] = 'Usuario';
+$_LANG['PASSWORD'] = 'Contraseña';
+$_LANG['CHOOSE_YOUR_LANGUAGE'] = 'Seleccione su lenguaje';
+$_LANG['NIBBLEBLOG_DESCRIPTION_1'] = 'CMS para Blogs Facil, rapido y gratis';
+$_LANG['NIBBLEBLOG_DESCRIPTION_2'] = 'Nibbleblog es un poderoso motor para la creación de blogs, todo lo que necesita para funcionar es PHP. Muy simple de instalar y configurar (solo 1 paso).';
+$_LANG['DOWNLOAD'] = 'Descargar';
+$_LANG['HELP_AND_SUPPORT'] = 'Ayuda & Soporte';
+$_LANG['CONTENT_HELP_AND_SUPPORT'] = 'Si necesita ayuda para la instalación, configuración o le gustaría reportar un error, puede ingresar al foro';
+$_LANG['DEMO'] = 'Demo';
+$_LANG['CONTENT_DEMO'] = 'Siente el poder de Nibbleblog antes de instalarlo.';
+$_LANG['DONATE'] = 'Donación';
+$_LANG['CONTENT_DONATE'] = 'Nibbleblog es un proyecto de código abierto, totalmente gratuito. Contamos con una cuenta en Paypal para el que quiera contribuir con una donación. Desde ya muchas gracias.';
+$_LANG['BLOG'] = 'Blog';
+$_LANG['ADMIN_AREA'] = 'Administración';
+$_LANG['BLOGS_POSTS'] = 'Posts del blog';
+$_LANG['FORUM'] = 'Foro';
+$_LANG['NIBBLEBLOG_ON_GITHUB'] = 'Nibbleblog en Github';
+$_LANG['CHANGELOG'] = 'Cambios recientes';
+$_LANG['DOCUMENTATION'] = 'Documentación';
+$_LANG['HOME'] = 'Pagina de inicio';
+$_LANG['HOW_TO_TUTORIALS'] = 'Tutoriales y documentación para los usuarios y desarrolladores.';
+$_LANG['DOWNLOAD_NIBBLEBLOG_THE'] = 'Descargue las ultima versión de Nibbleblog.';
+$_LANG['PARTNERS'] = 'Asociados';
+$_LANG['LATEST_STABLE_VERSION'] = 'Ultima versión estable';
+$_LANG['OLD_VERSIONS'] = 'Versiones anteriores';
+$_LANG['EASY_NIBBLEBLOG_SETUP_FROM'] = 'Fácil instalación en nuestro patrocinador A2 Hosting';
+$_LANG['MORE_INFORMATION'] = 'Mas información';
+$_LANG['META_KEYWORDS'] = 'blog, motor, flat, archivos, xml, nibbleblog, gpl, gratis, sin publicidad, sin base de datos, html, css, javascript, cms';
+$_LANG['OTHER_DOWNLOAD_OPTIONS'] = 'Otras opciones para descargar';
+
+?>
