@@ -7,7 +7,9 @@ $url = array(
 
 if( isset($_GET['page']) ){ $url['page'] = $_GET['page']; }
 
-if( isset($_GET['languages']) ) { $url['languages'] = $_GET['languages']; }
+if( isset($_GET['languages']) ) {
+	$url['languages'] = trim($_GET['languages'],'/');
+}
 
 $html_path = '/';
 
