@@ -7,7 +7,7 @@
 			<h2><?php echo $_LANG['NIBBLEBLOG_DESCRIPTION_2']; ?></h2>
 		</div>
 
-		<a class="download_button" href="http://sourceforge.net/projects/nibbleblog/files/v4.0/nibbleblog-v4.0.3.zip"><?php echo $_LANG['DOWNLOAD']; ?> v4.0.3</a>
+		<a class="download_button" href="https://sourceforge.net/projects/nibbleblog/files/v4.0/nibbleblog-v4.0.5.zip/download"><?php echo $_LANG['DOWNLOAD']; ?> v4.0.5</a>
 		<a class="download_others" href="<?php echo $links['download'] ?>"><?php echo $_LANG['OTHER_DOWNLOAD_OPTIONS'] ?></a>
 
 	</div>

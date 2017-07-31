@@ -4,18 +4,17 @@
 	<h2><?php echo $_LANG['LATEST_STABLE_VERSION'] ?></h2>
 
 	<div class="download">
+		<div>Nibbleblog v4.0.5 "Coffee"</div>
+		<span><a href="https://sourceforge.net/projects/nibbleblog/files/v4.0/nibbleblog-v4.0.5.zip/download">Sourceforge</a></span>
+	</div>
+
+	<h2><?php echo $_LANG['OLD_VERSIONS'] ?></h2>
+
+	<div class="download">
 		<div>Nibbleblog v4.0.3 "Coffee"</div>
 		<span><a target="_blank" href="http://blog.nibbleblog.com/post/nibbleblog-v4.0.3-coffee/"><?php echo $_LANG['CHANGELOG'] ?></a></span>
 		<span><a href="http://sourceforge.net/projects/nibbleblog/files/v4.0/nibbleblog-v4.0.3.zip">Sourceforge</a></span>
 	</div>
-
-	<div class="download">
-		<div>Nibbleblog v4.0.3 + Markdown</div>
-		<span><a target="_blank" href="http://blog.nibbleblog.com/post/nibbleblog-v4.0.2-coffee/"><?php echo $_LANG['CHANGELOG'] ?></a></span>
-		<span><a href="http://sourceforge.net/projects/nibbleblog/files/v4.0/nibbleblog-v4.0.2-markdown.zip">Sourceforge</a></span>
-	</div>
-
-	<h2><?php echo $_LANG['OLD_VERSIONS'] ?></h2>
 
 	<div class="download">
 		<div>Nibbleblog v4.0.2 "Coffee"</div>
