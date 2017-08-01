@@ -17,11 +17,11 @@ $html_path = '/';
 require( 'languages/en.bit' );
 @include( 'languages/'. $url['languages'] . '.bit' );
 
-$links['home'] = isset($url['languages'])? $html_path.$url['languages'].'/' : $html_path;
-$links['download'] = isset($url['languages'])? $html_path.'download/'.$url['languages'].'/' : $html_path.'download/';
-$links['documentation'] = isset($url['languages'])? $html_path.'documentation/'.$url['languages'].'/' : $html_path.'documentation/';
-$links['demo'] = isset($url['languages'])? $html_path.'demo/'.$url['languages'].'/' : $html_path.'demo/';
-$links['support'] = isset($url['languages'])? $html_path.'support/'.$url['languages'].'/' : $html_path.'support/';
+$links['home'] = !empty($url['languages'])? $html_path.$url['languages'].'/' : $html_path;
+$links['download'] = !empty($url['languages'])? $html_path.'download/'.$url['languages'].'/' : $html_path.'download/';
+$links['documentation'] = !empty($url['languages'])? $html_path.'documentation/'.$url['languages'].'/' : $html_path.'documentation/';
+$links['demo'] = !empty($url['languages'])? $html_path.'demo/'.$url['languages'].'/' : $html_path.'demo/';
+$links['support'] = !empty($url['languages'])? $html_path.'support/'.$url['languages'].'/' : $html_path.'support/';
 
 $langs = array(
 	'Català'=>'ca',
