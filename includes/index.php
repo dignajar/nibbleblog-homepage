@@ -65,10 +65,8 @@
 
 
 	<div class="sponsor">
-		<a style="margin: 0 20px;" target="_blank" href="http://syndicatefx.com"><img src="<?php echo $html_path ?>css/img/sponsors_syndicatefx.jpg"></a>
-		<a style="margin: 0 20px;" target="_blank" href="http://www.nibbleblog.com"><img src="<?php echo $html_path ?>css/img/sponsors_mrnibbler.png"></a>
+		<a style="margin: 0 20px;" target="_blank" href="https://www.bludit.com"><img src="<?php echo $html_path ?>css/img/sponsor_bludit.png"></a>
 		<a style="margin: 0 20px;" target="_blank" href="http://gikradio.com"><img src="<?php echo $html_path ?>css/img/sponsors_gikradio.png"></a>
-		<a style="margin: 0 20px;" target="_blank" href="http://partners.a2hosting.com/solutions.php?id=4243&url=442"><img src="<?php echo $html_path ?>css/img/sponsors_a2hosting.jpg"></a>
 	</div>
 
 </section>
