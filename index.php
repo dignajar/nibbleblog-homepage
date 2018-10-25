@@ -131,13 +131,6 @@ elseif($url['page']=='support')
 				<div class="logo">
 					<h1>nibbleblog</h1>
 				</div>
-				<div class="links">
-					<span><a href="<?php echo $links['home'] ?>"><?php echo $_LANG['HOME'] ?></a></span>
-					<span><a href="<?php echo $links['download'] ?>"><?php echo $_LANG['DOWNLOAD'] ?></a></span>
-					<span><a href="<?php echo $links['documentation'] ?>"><?php echo $_LANG['DOCUMENTATION'] ?></a></span>
-					<span><a href="<?php echo $links['demo'] ?>"><?php echo $_LANG['DEMO'] ?></a></span>
-					<span><a href="<?php echo $links['support'] ?>"><?php echo $_LANG['HELP_AND_SUPPORT'] ?></a></span>
-				</div>
 			</div>
 		</header>
 

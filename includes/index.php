@@ -8,13 +8,12 @@
 		</div>
 
 		<a class="download_button" href="https://sourceforge.net/projects/nibbleblog/files/v4.0/nibbleblog-v4.0.5.zip/download"><?php echo $_LANG['DOWNLOAD']; ?> v4.0.5</a>
-		<a class="download_others" href="<?php echo $links['download'] ?>"><?php echo $_LANG['OTHER_DOWNLOAD_OPTIONS'] ?></a>
-
 	</div>
 
 </section>
 
 <section id="main_sub">
+
 	<div class="social" style="margin-top: 60px;">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- Nibbleblog Oficial -->
@@ -33,7 +32,6 @@
 			<div class="bg_demo"></div>
 			<h2 class="title"><?php echo $_LANG['DEMO'] ?></h2>
 			<p><?php echo $_LANG['CONTENT_DEMO'] ?></p>
-			<p><a href="<?php echo $links['demo'] ?>"><?php echo $_LANG['MORE_INFORMATION'] ?></a></p>
 		</div>
 
 		<div class="monkey">
@@ -59,7 +57,6 @@
 		<a href="https://twitter.com/nibbleblog" target="_blank" class="social_twitter"></a>
 		<a href="https://plus.google.com/+Nibbleblog" target="_blank" class="social_googleplus"></a>
 		<a href="https://github.com/dignajar/nibbleblog" target="_blank" class="social_github"></a>
-		<a href="" target="_blank" class="social_youtube"></a>
 	</div>
 
 
